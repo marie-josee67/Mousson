@@ -10,3 +10,7 @@ Description de l'emploi:
 Vous devez créer un site Web qui fournira principalement des informations.
 L’objectif est de fournir une excellente expérience utilisateur. Outre la page de destination, le site Web aura besoin d’une page à propos, de pages de produits et d’une page de politique de confidentialité. La page de destination doit avoir une section Nos valeurs. Il devrait y avoir un appel à l'action pour inciter les utilisateurs à consulter le catalogue. Ils préféreraient un design à l'ancienne,
 et j'aimerais que vous utilisiez la couleur de la marque, qui est le bleu. Tenir compte des préférences et des valeurs du client.
+
+site utiliser:
+
+https://goodbrief.io ==> énoncer du projet
