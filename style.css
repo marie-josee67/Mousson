@@ -121,10 +121,19 @@ figcaption{
 
 .projetImpair{
     background-color: var(--color_fond);
-    
 }
 
 .projetPair{
     background-color: var(--color_fond_2);
 }
 
+/* **************************** Informations ************************** */
+
+.legale{
+    background-color: var(--color_fond);
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
