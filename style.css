@@ -50,11 +50,13 @@ img{
 h1{
     font-size: 50px;
     padding: 20px;
+    text-transform:uppercase;
     text-align: center;
 }
 
 h2{
     font-size: 40px;
+    text-transform: capitalize;
     padding: 20px;
 }
 
@@ -114,3 +116,15 @@ figcaption{
     padding: 20px 0 20px 0 ;
     font-style: italic;
 }
+
+/* ****************************** Produits *************************** */
+
+.projetImpair{
+    background-color: var(--color_fond);
+    
+}
+
+.projetPair{
+    background-color: var(--color_fond_2);
+}
+
