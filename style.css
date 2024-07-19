@@ -2,17 +2,107 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: aliceblue;
 }
+
+/* ************* Charte graphique ********************** */
+:root{
+    --body:rgb(119, 117, 114);
+    --nav:rgb(240, 248, 255);
+    --color_fond:#153448;
+    --color_fond_2:#3C5B6F;
+    --color_fond_3:#4F709C;
+    /* autre palette de couleur possible */
+    --option_1:rgb(32, 30, 67);
+    --option_2:rgb(19, 75, 112);
+    --option_2:rgb(80, 140, 155);
+    --option_4:rgb(238, 238, 238);
+}
+
+/* ********************** pour tous le site ********************* */
 
 body{
-    background-color: rgb(119, 117, 114);
+    background-color: var(--body);
 }
 
-main{
-    background-color: rgb(63, 63, 117);
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none; /* retire les puces  */
+    align-items: center;
+    justify-content: space-around;
+    /*border: 5px solid green;*/
 }
 
 li a {
+    color: var(--nav);
+    text-decoration: none; /* retire les traits */
+    width: 33.33%;
+    font-size: 30px;
+    /*border: 2px solid red;*/
+}
+
+img{
+    width: 30%;
+    padding: 20px;
+    /*border: 2px solid red;*/
+}
+
+h1{
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+h2{
+    font-size: 40px;
+    padding: 20px;
+}
+
+p{
+    font-size: 20px;
+    padding: 20px;
+}
+
+footer{
+    width: 100%;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+/* ********************* index ******************* */
+.corp{
+    position: relative;
+    width: 100%;
+}
+
+.intro{
+    width: 100%;
+    background-color: var(--color_fond);
+    /*border: 2px solid purple;*/
+}
+
+.valeur{
+    background-color: var(--color_fond_2);
+}
+
+.action{
+    width: 100%;
+    background-color: var(--color_fond);
+
+}
+
+.action a{
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 5px;
     text-decoration: none;
+    /*border: 2px solid green;*/
+}
+    
+button{
+    background-color: var(--color_fond);
+    width: 25%;
+    border-radius: 10px;
+    margin: 20px;
+    border: 2px solid gray;
 }
