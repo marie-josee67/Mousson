@@ -43,8 +43,24 @@ li a {
 
 img{
     width: 30%;
-    padding: 20px;
+    padding: 20px 0;
     /*border: 2px solid red;*/
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    /*border: 2px solid aliceblue;*/
+}
+
+.imageGauche{
+    padding-left: 20px;
+}
+
+.imageDroite{
+    display: flex;
+    justify-content: end; /* à droite */
+    padding-right: 50px;
 }
 
 h1{
@@ -88,6 +104,7 @@ footer{
 }
 
 .action{
+    text-align: center;
     width: 100%;
     background-color: var(--color_fond);
 
@@ -115,6 +132,10 @@ figcaption{
     font-size: 20px;
     padding: 20px 0 20px 0 ;
     font-style: italic;
+}
+
+.auCentre{
+    text-align: center;
 }
 
 /* ****************************** Produits *************************** */
