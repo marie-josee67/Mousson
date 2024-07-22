@@ -16,3 +16,5 @@ site utiliser:
 https://goodbrief.io ==> énoncer du projet
 
 https://colorhunt.co/palette/201e43134b70508c9beeeeee ==> palettes de couleur
+
+https://developer.mozilla.org/fr/docs/Web/CSS/filter ==> ombre pour les images

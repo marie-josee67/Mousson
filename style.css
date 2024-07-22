@@ -44,6 +44,7 @@ li a {
 img{
     width: 30%;
     padding: 20px 0;
+    filter: drop-shadow(16px 16px 20px rgb(238, 238, 238)); /* rajour de l'ombre à la boite */
     /*border: 2px solid red;*/
 }
 
@@ -55,6 +56,7 @@ img{
 
 .imageGauche{
     padding-left: 20px;
+    
 }
 
 .imageDroite{
